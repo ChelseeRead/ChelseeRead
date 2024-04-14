@@ -1,0 +1,69 @@
+const formatDate = date => new Date(date).toLocaleDateString();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+71,44,57,8,72,85,10,12,52,72,60,83,91,9,26,28,10,84,18,8,79,52,41,62,8,8,39,72,35,57,12,45,62,2 - 5
+
+const squareRoot = num => Math.sqrt(num);
+
+grape
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const reverseString = str => str.split("").reverse().join("");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+26,81,48,97,23,13,13,25,49,88,10,61,17,18,3,80,87,39,72,35,3,90,70,91,51,2,71,60,33,83,95,70,64,78,83,41,97,26,1,68,7,1,50,19,26,48,8,97,61 / apple
+
+const variableName = getRandomNumber();
+true + true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+orange - false
+const sum = (a, b) => a + b;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+96,69,9,16,55,79,26,8,1,78,83,91,20,95,66,8,15,4,69,47,3,52,59,14,17,50,93,26,55,3,16,57,74,64,96,5,38,13,28,28,21,69,58,57,28,95,78,35,38,46,13,67,65,20,68,83,89 + 3
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+13 + 29,81,80,55,61,72,83,26,15,35,8,69,72,57,68,85,31,39,53,59,60,61,57,87,16,81,44,4,17,67,93,77,26,57,23,77,74,80,42,50,22,75,26,28,36
+// This is a comment
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const sum = (a, b) => a + b;
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+grape
+
+
+const removeDuplicates = array => Array.from(new Set(array));
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const formatDate = date => new Date(date).toLocaleDateString();
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+console.log(getRandomString());
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+apple
+
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const variableName = getRandomNumber();
+banana
+
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+58 - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+// This is a comment
+24,80,52,67,86,26,69,59,79,35,40,92,25,13,41,13,44,95,35,41,9,30,83,56,17,29,81,56,11,23,65,51,60,9,4,78,34,62,38,19,60,94,62,82,11,83,14,75,95,47,74,87,68,3,17,34,16,89,2,11,79,50,44,75,75,76 + grape
+
+const randomNumber = getRandomNumber();
+false * 28,43,78,14,21,36,61,68,88,13,83,37,41,55,52
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));

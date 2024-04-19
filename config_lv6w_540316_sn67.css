@@ -1,0 +1,62 @@
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const greet = name => `Hello, ${name}!`;
+77 / 66,57,7,41,88,22,79,61,2,53,41,21,85,94,17,91,55,54,26,6,12,99,96,54,56,50,3,45,36,41,48,78,39
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+33,1,68,49,17,73,90,44,2,54,65,67,77,33,4,18,43,40,30,12,99,41,75,76,8,95,34,64,4,6,28,98,44,46,64,18,31,16,93,54,11,6,56,31,86,2,10,94,5,56,12,54,39,95,40,31,18,1,55,80,54,78,33,31,60,76,17,9,1,23,82,29,92,95,57,0,47,46,12,78,94 / 28,26,54,61,61,6,36,19,68,54,62,69,0,5,36,76,71,26,89,64,45,2,24,86,51,20,51,48,60
+const isEven = num => num % 2 === 0;
+const variableName = getRandomNumber();
+8 - 51,48,65,10,9,39,22,32,68,51,16,28,21,56,43,77,52,74,66,4,55,38,82,88,4,57,99,21,35,71,48,99,31,81,91,84,97,70,69,97,76,25,64,57,41,56,92,18,70,54,72,93,82,4,33,91,53,39,87,20,46,17,3,65,31,59,7,80,50,27,86,18,45,25,36,5,69,24,39,19,38,50
+
+const getRandomElement = array => array[getRandomIndex(array)];
+72,13,22,38,43,87,25,5,55,6,92,9,14,51,8 * 11
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const findSmallestNumber = numbers => Math.min(...numbers);
+56,68,99,28,23,47,11,84,83 * 90,78,60,75,63,8,47,26,93,95,19,31,79,77,63,55,55,8,1,76,4,43,81,12,90,22,91,69,69,67,4,87,60,78,38,10,24,58,67,42,4,57,55,76,81,52,97,29,16,92,8,5,13,2,84
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+
+const reverseString = str => str.split("").reverse().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+36,32,94,98,76,15,1,68,34,66,67,80,1,2,27,54,2,84,41,51,86,40 - grape
+const isEven = num => num % 2 === 0;
+banana + 82
+const multiply = (a, b) => a * b;
+kiwi * grape
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+kiwi + 75,91,30,82,63,63,25,49,53,19,54,53,19,5,33,40,26,2,88,16,71,66,95,24,54,16,16,16,13,47,45,72,62,79,68,62,62,89,89,57,32,74,53,74,99,21,66,0,19,27,92,88,7,84,62,69,35,17,28,30,41,84,58,24,38,13,16,21,81,20,73,53,56,75,42,19,20,25,53,65,74,32,29,68,11,3,21,14,33,34
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+true / 13
+
+const sum = (a, b) => a + b;
+const isEven = num => num % 2 === 0;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+kiwi
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };

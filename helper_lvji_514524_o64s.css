@@ -1,0 +1,14 @@
+false / orange
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+apple
+
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+function addNumbers(a, b) { return a + b; }
+const reverseString = str => str.split("").reverse().join("");
